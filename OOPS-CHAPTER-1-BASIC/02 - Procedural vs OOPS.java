@@ -1,3 +1,16 @@
+/*
+Procedural style (short description):
+- Data and functions are separate.
+- We pass values to functions to perform tasks.
+- Good for small/simple programs.
+
+Traditional OOP style (short description):
+- Data and behavior are combined inside a class.
+- We create objects, then call methods on those objects.
+- Better for organizing larger programs.
+*/
+
+// Procedural style
 class Main {
     public static void display(String branchname, int cupSold, int pricePerCup){
         System.out.println("branchname : " + branchname);
@@ -28,6 +41,9 @@ class Main {
         display(branch3Name, branch3CupSold, branch3Price);
     }
 }
+
+
+// OOP style
 
 class coffe {
 
