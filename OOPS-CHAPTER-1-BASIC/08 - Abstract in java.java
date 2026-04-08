@@ -180,4 +180,25 @@ class Main {
         a.sound();
     }
 }
+
+-------------------------------------------------------------------------------------------------------
+
+// concrete class
+  abstract class Bro{
+    void show(){
+        System.out.println("Hello");
+    }
+} 
+// concrete class
+
+class concrete extends Bro {
+    
+}
+
+class Main {
+    public static void main(String[] args) {
+        Bro b1 = new concrete();
+        b1.show();
+    }
+}
 -------------------------------------------------------------------------------------------------
